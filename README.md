@@ -9,5 +9,6 @@ How to Use
 * `git clone https://github.com/Zamiell/electron-test.git`
 * `cd electron-test`
 * `npm install`
-* Edit `app/renderer.js` and fill in `https://[a1b1c1]@sentry.io/[12345]` with the values for your Raven account / app.
+* Edit `app/renderer.js` and fill in `https://[a1b1c1]@sentry.io/[12345]` with the values for your Sentry account / app.
 * `npm start`
+* Watch the bugged report come in to your Sentry account!
