@@ -1,6 +1,7 @@
 /*
     Electron Test (for Sentry)
-    (renderer process)
+    stuff.js
+    (this file is included by renderer.js)
 */
 
 'use strict';

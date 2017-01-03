@@ -1,35 +1,15 @@
-
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         <title>Electron Test</title>
-
-        <!-- jQuery workaround for Electron -->
-        <!--<script>
-            window.nodeRequire = require;
-            delete window.require;
-            delete window.exports;
-            delete window.module;
-        </script>-->
-
-        <!--
-            Scripts
-        -->
-
-        <!-- jQuery is used for everything -->
-        <!--<script src="jquery.min.js"></script>-->
 
         <!-- Sentry is used to automatically report errors -->
         <script src="https://cdn.ravenjs.com/3.9.1/raven.min.js" crossorigin="anonymous"></script>
 
-        <!-- The main app -->
+        <!-- The JavaScript for the browser part of the app -->
         <script src="renderer.js"></script>
     </head>
 
     <body>
-        <p id="thing1">Hi!</p>
-        <p id="thing2"></p>
+        <p>Hello!</p>
     </body>
 </html>

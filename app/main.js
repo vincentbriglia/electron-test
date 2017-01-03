@@ -6,16 +6,20 @@
 'use strict';
 
 /*
-    This is taken from the electron-quick-start repository and is unchanged:
+    This file is taken from the electron-quick-start repository:
     https://github.com/electron/electron-quick-start
+    
+    All code below is unchanged.
 */
 
-// Imports
-const electron      = require('electron')
-const app           = electron.app // Module to control application life.
-const BrowserWindow = electron.BrowserWindow // Module to create native browser window.
-const path          = require('path')
-const url           = require('url')
+const electron = require('electron')
+// Module to control application life.
+const app = electron.app
+// Module to create native browser window.
+const BrowserWindow = electron.BrowserWindow
+
+const path = require('path')
+const url = require('url')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
