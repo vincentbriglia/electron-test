@@ -1,0 +1,11 @@
+{
+  "name": "ElectronTest",
+  "productName": "ElectronTest",
+  "main": "./main.js",
+  "version": "0.0.1",
+  "description": "A test for Electron and Sentry",
+  "author": "Zamiell",
+  "license": "GPL-3.0",
+  "dependencies": {
+  }
+}

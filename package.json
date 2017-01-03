@@ -1,0 +1,19 @@
+{
+  "name": "ElectronTest",
+  "description": "A test for Electron and Sentry",
+  "scripts": {
+    "start": "electron ./app",
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "org.electron.electronTest",
+    "win": {}
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-builder": "^10.17.1"
+  }
+}
